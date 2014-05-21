@@ -1,0 +1,21 @@
+
+/**
+ * Dropbox logo.
+ */
+
+.logo[data-logo="Dropbox"] {
+  width: 0;
+}
+
+.logo[data-logo="Dropbox"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="Dropbox"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Dropbox"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
